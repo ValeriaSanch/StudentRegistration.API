@@ -1,0 +1,335 @@
+2026-05-01 19:39:01.162 -05:00 [FTL] Application terminated unexpectedly
+MySqlConnector.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySqlConnector.Core.ServerSession.OpenTcpSocketAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1063
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 425
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 932
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 938
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(DbContextOptionsBuilder options) in C:\Users\guill\source\repos\StudentRegistration.API\StudentRegistration.API\Program.cs:line 45
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Program.<Main>$(String[] args) in C:\Users\guill\source\repos\StudentRegistration.API\StudentRegistration.API\Program.cs:line 88
+2026-05-01 19:43:20.536 -05:00 [FTL] Application terminated unexpectedly
+MySqlConnector.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySqlConnector.Core.ServerSession.OpenTcpSocketAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1063
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 425
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 932
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 938
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(DbContextOptionsBuilder options) in C:\Users\guill\source\repos\StudentRegistration.API\StudentRegistration.API\Program.cs:line 45
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Program.<Main>$(String[] args) in C:\Users\guill\source\repos\StudentRegistration.API\StudentRegistration.API\Program.cs:line 88
+2026-05-01 19:43:31.786 -05:00 [FTL] Application terminated unexpectedly
+MySqlConnector.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySqlConnector.Core.ServerSession.OpenTcpSocketAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1063
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 425
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 932
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 938
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(DbContextOptionsBuilder options) in C:\Users\guill\source\repos\StudentRegistration.API\StudentRegistration.API\Program.cs:line 45
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Program.<Main>$(String[] args) in C:\Users\guill\source\repos\StudentRegistration.API\StudentRegistration.API\Program.cs:line 88
+2026-05-01 19:47:12.850 -05:00 [FTL] Application terminated unexpectedly
+MySqlConnector.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySqlConnector.Core.ServerSession.OpenTcpSocketAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1063
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 425
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 932
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 938
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(DbContextOptionsBuilder options) in C:\Users\guill\source\repos\StudentRegistration.API\StudentRegistration.API\Program.cs:line 45
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Program.<Main>$(String[] args) in C:\Users\guill\source\repos\StudentRegistration.API\StudentRegistration.API\Program.cs:line 88
+2026-05-01 20:03:13.030 -05:00 [FTL] Application terminated unexpectedly
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 532
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 932
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 938
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(DbContextOptionsBuilder options) in C:\Users\guill\source\repos\StudentRegistration.API\StudentRegistration.API\Program.cs:line 45
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Program.<Main>$(String[] args) in C:\Users\guill\source\repos\StudentRegistration.API\StudentRegistration.API\Program.cs:line 88
+2026-05-01 20:18:05.922 -05:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE `student_registration_dev`;
+2026-05-01 20:18:06.350 -05:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2026-05-01 20:18:06.408 -05:00 [INF] Executed DbCommand (52ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `professors` (
+    `professor_id` char(36) COLLATE ascii_general_ci NOT NULL,
+    `full_name` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+    CONSTRAINT `PK_professors` PRIMARY KEY (`professor_id`)
+) CHARACTER SET=utf8mb4;
+2026-05-01 20:18:06.468 -05:00 [INF] Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `students` (
+    `student_id` char(36) COLLATE ascii_general_ci NOT NULL,
+    `full_name` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+    `email` varchar(255) CHARACTER SET utf8mb4 NOT NULL,
+    `document_number` varchar(20) CHARACTER SET utf8mb4 NOT NULL,
+    `created_at` datetime(6) NOT NULL,
+    `updated_at` datetime(6) NULL,
+    `is_active` tinyint(1) NOT NULL DEFAULT TRUE,
+    CONSTRAINT `PK_students` PRIMARY KEY (`student_id`)
+) CHARACTER SET=utf8mb4;
+2026-05-01 20:18:06.531 -05:00 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `subjects` (
+    `subject_id` char(36) COLLATE ascii_general_ci NOT NULL,
+    `name` varchar(100) CHARACTER SET utf8mb4 NOT NULL,
+    `credits` int NOT NULL DEFAULT 3,
+    `professor_id` char(36) COLLATE ascii_general_ci NOT NULL,
+    CONSTRAINT `PK_subjects` PRIMARY KEY (`subject_id`),
+    CONSTRAINT `FK_subjects_professors_professor_id` FOREIGN KEY (`professor_id`) REFERENCES `professors` (`professor_id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2026-05-01 20:18:06.623 -05:00 [INF] Executed DbCommand (86ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `enrollments` (
+    `enrollment_id` char(36) COLLATE ascii_general_ci NOT NULL,
+    `student_id` char(36) COLLATE ascii_general_ci NOT NULL,
+    `subject_id` char(36) COLLATE ascii_general_ci NOT NULL,
+    `professor_id` char(36) COLLATE ascii_general_ci NOT NULL,
+    `enrolled_at` datetime(6) NOT NULL,
+    `is_active` tinyint(1) NOT NULL DEFAULT TRUE,
+    CONSTRAINT `PK_enrollments` PRIMARY KEY (`enrollment_id`),
+    CONSTRAINT `FK_enrollments_students_student_id` FOREIGN KEY (`student_id`) REFERENCES `students` (`student_id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_enrollments_subjects_subject_id` FOREIGN KEY (`subject_id`) REFERENCES `subjects` (`subject_id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2026-05-01 20:18:06.674 -05:00 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `idx_enrollments_student` ON `enrollments` (`student_id`);
+2026-05-01 20:18:06.717 -05:00 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `idx_enrollments_subject` ON `enrollments` (`subject_id`);
+2026-05-01 20:18:06.756 -05:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `uq_student_subject_active` ON `enrollments` (`student_id`, `subject_id`, `is_active`);
+2026-05-01 20:18:06.796 -05:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `idx_students_document` ON `students` (`document_number`);
+2026-05-01 20:18:06.839 -05:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `idx_students_email` ON `students` (`email`);
+2026-05-01 20:18:06.878 -05:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_subjects_name` ON `subjects` (`name`);
+2026-05-01 20:18:06.925 -05:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_subjects_professor_id` ON `subjects` (`professor_id`);
+2026-05-01 20:18:07.363 -05:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `professors` AS `p`)
+2026-05-01 20:18:07.878 -05:00 [INF] Executed DbCommand (64ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 150), @p2='?' (DbType = Guid), @p3='?' (Size = 150), @p4='?' (DbType = Guid), @p5='?' (Size = 150), @p6='?' (DbType = Guid), @p7='?' (Size = 150), @p8='?' (DbType = Guid), @p9='?' (Size = 150), @p10='?' (DbType = Guid), @p11='?' (DbType = Int32), @p12='?' (Size = 100), @p13='?' (DbType = Guid), @p14='?' (DbType = Guid), @p15='?' (DbType = Int32), @p16='?' (Size = 100), @p17='?' (DbType = Guid), @p18='?' (DbType = Guid), @p19='?' (DbType = Int32), @p20='?' (Size = 100), @p21='?' (DbType = Guid), @p22='?' (DbType = Guid), @p23='?' (DbType = Int32), @p24='?' (Size = 100), @p25='?' (DbType = Guid), @p26='?' (DbType = Guid), @p27='?' (DbType = Int32), @p28='?' (Size = 100), @p29='?' (DbType = Guid), @p30='?' (DbType = Guid), @p31='?' (DbType = Int32), @p32='?' (Size = 100), @p33='?' (DbType = Guid), @p34='?' (DbType = Guid), @p35='?' (DbType = Int32), @p36='?' (Size = 100), @p37='?' (DbType = Guid), @p38='?' (DbType = Guid), @p39='?' (DbType = Int32), @p40='?' (Size = 100), @p41='?' (DbType = Guid), @p42='?' (DbType = Guid), @p43='?' (DbType = Int32), @p44='?' (Size = 100), @p45='?' (DbType = Guid), @p46='?' (DbType = Guid), @p47='?' (DbType = Int32), @p48='?' (Size = 100), @p49='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `professors` (`professor_id`, `full_name`)
+VALUES (@p0, @p1),
+(@p2, @p3),
+(@p4, @p5),
+(@p6, @p7),
+(@p8, @p9);
+INSERT INTO `subjects` (`subject_id`, `credits`, `name`, `professor_id`)
+VALUES (@p10, @p11, @p12, @p13),
+(@p14, @p15, @p16, @p17),
+(@p18, @p19, @p20, @p21),
+(@p22, @p23, @p24, @p25),
+(@p26, @p27, @p28, @p29),
+(@p30, @p31, @p32, @p33),
+(@p34, @p35, @p36, @p37),
+(@p38, @p39, @p40, @p41),
+(@p42, @p43, @p44, @p45),
+(@p46, @p47, @p48, @p49);
+2026-05-01 20:18:08.948 -05:00 [INF] Now listening on: https://localhost:7082
+2026-05-01 20:18:08.952 -05:00 [INF] Now listening on: http://localhost:5006
+2026-05-01 20:18:09.094 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-01 20:18:09.099 -05:00 [INF] Hosting environment: Development
+2026-05-01 20:18:09.104 -05:00 [INF] Content root path: C:\Users\guill\source\repos\StudentRegistration.API\StudentRegistration.API
+2026-05-01 20:19:35.004 -05:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'student_registration_dev'
+2026-05-01 20:19:35.559 -05:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `professors` AS `p`)
+2026-05-01 20:19:36.169 -05:00 [INF] Now listening on: https://localhost:7082
+2026-05-01 20:19:36.173 -05:00 [INF] Now listening on: http://localhost:5006
+2026-05-01 20:19:36.306 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-01 20:19:36.309 -05:00 [INF] Hosting environment: Development
+2026-05-01 20:19:36.313 -05:00 [INF] Content root path: C:\Users\guill\source\repos\StudentRegistration.API\StudentRegistration.API
+2026-05-01 20:21:02.651 -05:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'student_registration_dev'
+2026-05-01 20:21:03.130 -05:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `professors` AS `p`)
+2026-05-01 20:21:03.698 -05:00 [INF] Now listening on: https://localhost:7082
+2026-05-01 20:21:03.701 -05:00 [INF] Now listening on: http://localhost:5006
+2026-05-01 20:21:03.837 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-01 20:21:03.839 -05:00 [INF] Hosting environment: Development
+2026-05-01 20:21:03.843 -05:00 [INF] Content root path: C:\Users\guill\source\repos\StudentRegistration.API\StudentRegistration.API
+2026-05-01 20:22:34.156 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5006/ - null null
+2026-05-01 20:22:34.477 -05:00 [INF] HTTP GET / responded 307 in 10.7551 ms
+2026-05-01 20:22:34.523 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5006/ - 307 null null 381.8035ms
+2026-05-01 20:22:34.685 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7082/ - null null
+2026-05-01 20:22:34.705 -05:00 [INF] HTTP GET / responded 404 in 4.5407 ms
+2026-05-01 20:22:34.717 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7082/ - 404 null null 32.389ms
+2026-05-01 20:22:34.728 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7082/, Response status code: 404
+2026-05-01 20:22:52.891 -05:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'student_registration_dev'
+2026-05-01 20:22:53.362 -05:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `professors` AS `p`)
+2026-05-01 20:22:53.935 -05:00 [INF] Now listening on: https://localhost:7082
+2026-05-01 20:22:53.938 -05:00 [INF] Now listening on: http://localhost:5006
+2026-05-01 20:22:54.066 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-01 20:22:54.074 -05:00 [INF] Hosting environment: Development
+2026-05-01 20:22:54.077 -05:00 [INF] Content root path: C:\Users\guill\source\repos\StudentRegistration.API\StudentRegistration.API
+2026-05-01 20:22:55.213 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7082/ - null null
+2026-05-01 20:22:55.444 -05:00 [INF] HTTP GET / responded 404 in 9.9917 ms
+2026-05-01 20:22:55.461 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7082/ - 404 null null 258.5693ms
+2026-05-01 20:22:55.472 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7082/, Response status code: 404
+2026-05-01 20:23:37.704 -05:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'student_registration_dev'
+2026-05-01 20:23:38.215 -05:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `professors` AS `p`)
+2026-05-01 20:23:38.834 -05:00 [INF] Now listening on: https://localhost:7082
+2026-05-01 20:23:38.837 -05:00 [INF] Now listening on: http://localhost:5006
+2026-05-01 20:23:38.976 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-01 20:23:38.979 -05:00 [INF] Hosting environment: Development
+2026-05-01 20:23:38.982 -05:00 [INF] Content root path: C:\Users\guill\source\repos\StudentRegistration.API\StudentRegistration.API
+2026-05-01 20:23:39.804 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7082/ - null null
+2026-05-01 20:23:40.063 -05:00 [INF] HTTP GET / responded 404 in 14.8291 ms
+2026-05-01 20:23:40.079 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7082/ - 404 null null 286.7874ms
+2026-05-01 20:23:40.093 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7082/, Response status code: 404
+2026-05-01 20:24:16.073 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger - null null
+2026-05-01 20:24:16.110 -05:00 [INF] HTTP GET /swagger responded 301 in 2.5614 ms
+2026-05-01 20:24:16.115 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger - 301 null null 43.6789ms
+2026-05-01 20:24:16.121 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - null null
+2026-05-01 20:24:16.292 -05:00 [INF] HTTP GET /swagger/index.html responded 200 in 155.0565 ms
+2026-05-01 20:24:16.299 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - 200 null text/html;charset=utf-8 179.3451ms
+2026-05-01 20:24:16.339 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/swagger-ui.css - null null
+2026-05-01 20:24:16.341 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-01 20:24:16.339 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/swagger-ui-bundle.js - null null
+2026-05-01 20:24:16.341 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.js - null null
+2026-05-01 20:24:16.339 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.css - null null
+2026-05-01 20:24:16.432 -05:00 [INF] HTTP GET /swagger/index.js responded 200 in 2.6666 ms
+2026-05-01 20:24:16.364 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-01 20:24:16.460 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.js - 200 null application/javascript;charset=utf-8 117.9556ms
+2026-05-01 20:24:16.462 -05:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2026-05-01 20:24:16.405 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - null null
+2026-05-01 20:24:16.530 -05:00 [INF] HTTP GET /swagger/index.css responded 200 in 76.8262 ms
+2026-05-01 20:24:16.531 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-05-01 20:24:16.547 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.css - 200 202 text/css 207.2549ms
+2026-05-01 20:24:16.555 -05:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 168.5417 ms
+2026-05-01 20:24:16.528 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - 200 14951 application/javascript; charset=utf-8 165.3351ms
+2026-05-01 20:24:16.586 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/swagger-ui-standalone-preset.js - 200 230293 text/javascript 244.7073ms
+2026-05-01 20:24:16.530 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-05-01 20:24:16.621 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-05-01 20:24:16.624 -05:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 247.1826 ms
+2026-05-01 20:24:16.632 -05:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 210.6956 ms
+2026-05-01 20:24:16.638 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/swagger-ui.css - 200 152034 text/css 298.6558ms
+2026-05-01 20:24:16.643 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/swagger-ui-bundle.js - 200 1452753 text/javascript 303.5555ms
+2026-05-01 20:24:16.754 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - 200 null text/javascript; charset=UTF-8 348.944ms
+2026-05-01 20:24:16.934 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - null null
+2026-05-01 20:24:17.003 -05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 59.5101 ms
+2026-05-01 20:24:17.010 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 77.8129ms
+2026-05-01 20:24:17.087 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/favicon-32x32.png - null null
+2026-05-01 20:24:17.093 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-05-01 20:24:17.096 -05:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 3.8777 ms
+2026-05-01 20:24:17.100 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/favicon-32x32.png - 200 628 image/png 15.3113ms
+2026-05-01 20:24:17.831 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/favicon-32x32.png - null null
+2026-05-01 20:24:17.839 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-05-01 20:24:17.843 -05:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 3.7938 ms
+2026-05-01 20:24:17.848 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/favicon-32x32.png - 200 628 image/png 17.5305ms

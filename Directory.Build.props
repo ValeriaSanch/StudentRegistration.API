@@ -1,0 +1,11 @@
+<Project>
+  <PropertyGroup>
+    <!-- Suppress NuGet vulnerability advisories for transitive packages -->
+    <NoWarn>$(NoWarn);NU1903</NoWarn>
+    <!-- Link stylecop.json to every project automatically -->
+    <StyleCopAnalyzersJson>$(MSBuildThisFileDirectory)stylecop.json</StyleCopAnalyzersJson>
+  </PropertyGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="$(MSBuildThisFileDirectory)stylecop.json" Link="stylecop.json" />
+  </ItemGroup>
+</Project>

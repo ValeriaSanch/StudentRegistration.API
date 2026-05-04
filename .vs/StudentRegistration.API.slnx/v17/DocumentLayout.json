@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VALERIA\\source\\repos\\StudentRegistration.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1711874-F4A2-C009-29D5-2F754A69F365}|StudentRegistration.Presentation\\StudentRegistration.Presentation.csproj|c:\\users\\valeria\\source\\repos\\studentregistration.api\\studentregistration.presentation\\controllers\\classmatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1711874-F4A2-C009-29D5-2F754A69F365}|StudentRegistration.Presentation\\StudentRegistration.Presentation.csproj|solutionrelative:studentregistration.presentation\\controllers\\classmatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52BC76B-7A4D-D2E7-1E63-9F1CF71158DD}|StudentRegistration.API\\StudentRegistration.API.csproj|c:\\users\\valeria\\source\\repos\\studentregistration.api\\studentregistration.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D52BC76B-7A4D-D2E7-1E63-9F1CF71158DD}|StudentRegistration.API\\StudentRegistration.API.csproj|solutionrelative:studentregistration.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VALERIA\\source\\repos\\StudentRegistration.API\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VALERIA\\source\\repos\\StudentRegistration.API\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52BC76B-7A4D-D2E7-1E63-9F1CF71158DD}|StudentRegistration.API\\StudentRegistration.API.csproj|c:\\users\\valeria\\source\\repos\\studentregistration.api\\studentregistration.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D52BC76B-7A4D-D2E7-1E63-9F1CF71158DD}|StudentRegistration.API\\StudentRegistration.API.csproj|solutionrelative:studentregistration.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52BC76B-7A4D-D2E7-1E63-9F1CF71158DD}|StudentRegistration.API\\StudentRegistration.API.csproj|c:\\users\\valeria\\source\\repos\\studentregistration.api\\studentregistration.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D52BC76B-7A4D-D2E7-1E63-9F1CF71158DD}|StudentRegistration.API\\StudentRegistration.API.csproj|solutionrelative:studentregistration.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClassmatesController.cs",
+              "DocumentMoniker": "C:\\Users\\VALERIA\\source\\repos\\StudentRegistration.API\\StudentRegistration.Presentation\\Controllers\\ClassmatesController.cs",
+              "RelativeDocumentMoniker": "StudentRegistration.Presentation\\Controllers\\ClassmatesController.cs",
+              "ToolTip": "C:\\Users\\VALERIA\\source\\repos\\StudentRegistration.API\\StudentRegistration.Presentation\\Controllers\\ClassmatesController.cs",
+              "RelativeToolTip": "StudentRegistration.Presentation\\Controllers\\ClassmatesController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T22:04:58.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VALERIA\\source\\repos\\StudentRegistration.API\\StudentRegistration.API\\Program.cs",
+              "RelativeDocumentMoniker": "StudentRegistration.API\\Program.cs",
+              "ToolTip": "C:\\Users\\VALERIA\\source\\repos\\StudentRegistration.API\\StudentRegistration.API\\Program.cs",
+              "RelativeToolTip": "StudentRegistration.API\\Program.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAJAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T21:25:35.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\VALERIA\\source\\repos\\StudentRegistration.API\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\VALERIA\\source\\repos\\StudentRegistration.API\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-05-03T20:59:28.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\VALERIA\\source\\repos\\StudentRegistration.API\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "C:\\Users\\VALERIA\\source\\repos\\StudentRegistration.API\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-03T20:43:52.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\VALERIA\\source\\repos\\StudentRegistration.API\\StudentRegistration.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "StudentRegistration.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\VALERIA\\source\\repos\\StudentRegistration.API\\StudentRegistration.API\\appsettings.Development.json",
+              "RelativeToolTip": "StudentRegistration.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-03T20:43:09.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\VALERIA\\source\\repos\\StudentRegistration.API\\StudentRegistration.API\\appsettings.json",
+              "RelativeDocumentMoniker": "StudentRegistration.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\VALERIA\\source\\repos\\StudentRegistration.API\\StudentRegistration.API\\appsettings.json",
+              "RelativeToolTip": "StudentRegistration.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-03T20:43:05.29Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

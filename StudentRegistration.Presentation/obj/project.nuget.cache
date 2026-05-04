@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "VqgYlndlPSY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\VALERIA\\source\\repos\\StudentRegistration.API\\StudentRegistration.Presentation\\StudentRegistration.Presentation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VALERIA\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\VALERIA\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\VALERIA\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\VALERIA\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\VALERIA\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\VALERIA\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\VALERIA\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\VALERIA\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.556\\stylecop.analyzers.1.2.0-beta.556.nupkg.sha512",
+    "C:\\Users\\VALERIA\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.556\\stylecop.analyzers.unstable.1.2.0.556.nupkg.sha512"
+  ],
+  "logs": []
+}

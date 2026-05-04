@@ -1,0 +1,44 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: StudentRegistration.API/Dockerfile
+    container_name: student_registration_api
+    ports:
+      - "${API_PORT:-8080}:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT:-Production}
+      - Swagger__Enabled=true
+      - ConnectionStrings__DefaultConnection=Server=db;Port=3306;Database=${DB_NAME:-student_registration};User=${DB_USER:-root};Password=${DB_PASSWORD:-root_password};AllowPublicKeyRetrieval=true;SslMode=None;CharSet=utf8mb4;
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - student_net
+
+  db:
+    image: mysql:8.0
+    container_name: student_registration_db
+    ports:
+      - "${DB_PORT:-3307}:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD:-root_password}
+      MYSQL_DATABASE: ${DB_NAME:-student_registration}
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${DB_PASSWORD:-root_password}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+    networks:
+      - student_net
+
+volumes:
+  mysql_data:
+
+networks:
+  student_net:
+    driver: bridge

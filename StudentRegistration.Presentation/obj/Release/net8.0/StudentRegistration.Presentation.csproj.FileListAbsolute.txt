@@ -1,0 +1,17 @@
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Presentation\bin\Release\net8.0\StudentRegistration.Presentation.deps.json
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Presentation\bin\Release\net8.0\StudentRegistration.Presentation.dll
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Presentation\bin\Release\net8.0\StudentRegistration.Presentation.pdb
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Presentation\bin\Release\net8.0\StudentRegistration.Application.dll
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Presentation\bin\Release\net8.0\StudentRegistration.Domain.dll
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Presentation\bin\Release\net8.0\StudentRegistration.Application.pdb
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Presentation\bin\Release\net8.0\StudentRegistration.Domain.pdb
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Presentation\obj\Release\net8.0\StudentRegistration.Presentation.csproj.AssemblyReference.cache
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Presentation\obj\Release\net8.0\StudentRegistration.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Presentation\obj\Release\net8.0\StudentRegistration.Presentation.AssemblyInfoInputs.cache
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Presentation\obj\Release\net8.0\StudentRegistration.Presentation.AssemblyInfo.cs
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Presentation\obj\Release\net8.0\StudentRegistration.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Presentation\obj\Release\net8.0\StudentR.C9D426AA.Up2Date
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Presentation\obj\Release\net8.0\StudentRegistration.Presentation.dll
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Presentation\obj\Release\net8.0\refint\StudentRegistration.Presentation.dll
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Presentation\obj\Release\net8.0\StudentRegistration.Presentation.pdb
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Presentation\obj\Release\net8.0\ref\StudentRegistration.Presentation.dll

@@ -1,0 +1,11 @@
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Domain\bin\Release\net8.0\StudentRegistration.Domain.deps.json
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Domain\bin\Release\net8.0\StudentRegistration.Domain.dll
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Domain\bin\Release\net8.0\StudentRegistration.Domain.pdb
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Domain\obj\Release\net8.0\StudentRegistration.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Domain\obj\Release\net8.0\StudentRegistration.Domain.AssemblyInfoInputs.cache
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Domain\obj\Release\net8.0\StudentRegistration.Domain.AssemblyInfo.cs
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Domain\obj\Release\net8.0\StudentRegistration.Domain.csproj.CoreCompileInputs.cache
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Domain\obj\Release\net8.0\StudentRegistration.Domain.dll
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Domain\obj\Release\net8.0\refint\StudentRegistration.Domain.dll
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Domain\obj\Release\net8.0\StudentRegistration.Domain.pdb
+C:\Users\VALERIA\source\repos\StudentRegistration.API\StudentRegistration.Domain\obj\Release\net8.0\ref\StudentRegistration.Domain.dll
